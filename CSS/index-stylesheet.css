@@ -2,10 +2,18 @@
     margin: auto;
     padding: auto;                      /* page setting*/
 }
+body{
+    margin: 0px;
+}
 header{
     padding: 0px 30px;
     height: 100px;
     z-index: 999;
+    position: fixed;
+    width: 96%;
+    background-color: hsl(0, 17%, 87%) !important;
+    margin-top: 0px;
+    bottom: 525px;
 }
 #logo img{                                     
     position: absolute;
@@ -40,17 +48,17 @@ nav ul li a:hover{
     color: #1abc9c;
 }
 
-/* section after header*/
-
+/*---------------- section after header -------------*/
 #page-title{
     height: 65px;
     padding: 50px 0px;
     background-color: #f5f5f5;
+    margin-top: 100px;
 }
 #page-title div{
     margin: 0px 89.5px;
-    padding: 0px 15px;
-    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 #page-title div h1{
     padding: 0px;
@@ -96,7 +104,7 @@ nav ul li a:hover{
 }
 
 
-/* grids */
+/*--------------- grids -----------------*/
 .wrap{
     position: relative;
     height: 600px;
@@ -136,17 +144,45 @@ nav ul li a:hover{
 }
 
 
+/*--------------- banner -----------*/
+.banner{
+    height: 850px;
+    background-color: #f9f9f9;
+    margin-top: 70px;
+}
+.banner-contant{
+    text-align: center;
+    padding-top: 70px;
+}
+.banner-article{
+    -padding-bottom: 120px !important;
+}
+#banner-heading{
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #333333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#banner-deatails{
+    font-size: 22px;
+    color: #777;
+    margin-top: 10px;
+    margin-bottom: 80px;
+    font-weight: 300;
+    text-align: center;
+}
 
 
-/* footer contain grids */
+
+/*--------- footer contain grids -------------*/
 #footer{
     background-color: #333333;
     color: #ccc;
     border-top-color: rgba(0, 0, 0, 0.2);
     position: relative;
     border-top: 5px solid rgba(0, 0, 0, 0.2);
-    height: 500px;
-    margin-top: 100px;
+    height: 450px;
 }
 #foo-heading{
     color: rgb(204, 204, 204);
