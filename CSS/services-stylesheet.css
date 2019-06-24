@@ -1,0 +1,39 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    height: 100px;
+}
+#headcontant{
+    padding: 0px 30px;
+}
+#logo{
+    border-right: 1px solid rgb(238, 238, 238);
+    box-sizing: border-box;
+    color: #555;
+    font-size: 36px;
+    opacity: 1px;
+    position: relative;
+
+}
+#logo a img{
+    float: left;
+    margin-right:  30px;
+    padding-right: 30px;
+    font-family: sans-serif;
+}
+#nav-bar{
+    color: #555;
+    box-sizing: border-box;
+    float: right;
+    display: block;
+    font-size: 14px;
+}
+#nav-bar ul li a{
+    display: inline;
+    font-size: 13px;
+    color: #444;
+    padding: 39px 15px;
+
+}
